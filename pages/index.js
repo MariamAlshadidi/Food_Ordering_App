@@ -5,6 +5,7 @@ import styles from '@/styles/Home.module.css'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import Featured from '@/components/Featured'
+import ProductList from '@/components/ProductList'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,6 +20,7 @@ export default function Home() {
       </Head>
 
       <Featured />
+      <ProductList />
  
     </>
   )
